@@ -11,8 +11,7 @@ function AppLayout() {
     <div>
       <Header />
       {loading && <Loader />}
-      <main>
-        <h1>Content</h1>
+      <main className="text-center">
         <Outlet />
       </main>
       <CartOverview />

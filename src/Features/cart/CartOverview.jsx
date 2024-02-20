@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function CartOverview() {
   return (
-    <div>
+    <div className="bg-sky-950 text-sky-100 p-4">
       <p>
         <span>23 pizzas</span>
         <span>$23.45</span>
