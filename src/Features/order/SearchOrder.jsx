@@ -15,6 +15,7 @@ function SearchOrder() {
   return (
     <form onSubmit={handleSubmit}>
       <input
+        className=" rounded-full px-4 py-2 transition-all duration-100 focus:outline-none focus:ring focus:ring-sky-600 focus:ring-opacity-50 sm:focus:w-72 "
         type="text"
         placeholder="search for order..."
         value={query}
